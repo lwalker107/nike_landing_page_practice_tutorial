@@ -37,6 +37,7 @@ const SpecialOffer = () => {
             />
           </div>
         </div>
+        
       
     </section>
   )

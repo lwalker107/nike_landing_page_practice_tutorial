@@ -16,7 +16,7 @@ const SuperQuality = () => {
             <span 
               className='text-coral-red'>
                  Quality 
-            </span> Shoes
+            </span> Shoes </h2>
           <p className='mt-4 lg:max-w-lg info-text'>
             Ensuring premium comfort and style, our meticulously crafted 
             footwear is designed to elevate your experience, providing you with 
@@ -26,7 +26,8 @@ const SuperQuality = () => {
           <div classname='mt-11'>
             <Button label='View Details' />
           </div>
-          </h2>
+        </div>
+          
 
           <div className='flex-1 flex justify-center items-center'>
             <img 
@@ -37,7 +38,7 @@ const SuperQuality = () => {
               className='object-container'
             />
           </div>
-        </div>
+        
     </section>
   )
 }

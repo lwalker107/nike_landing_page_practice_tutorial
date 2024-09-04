@@ -1,7 +1,7 @@
 
 
 const Button = ({ label, iconURL, backgroundColor, textColor,
-  borderColor}) => {
+  borderColor, fullWidth}) => {
   return (
     <button className={`flex justify-center 
     items-center gap-2 px-7 py-4 border font-montserrat 
@@ -9,7 +9,7 @@ const Button = ({ label, iconURL, backgroundColor, textColor,
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}` 
-          : 'bg-coral-red border-coral-red text-white'} rounded-full`}>
+          : 'bg-coral-red border-coral-red text-white'} rounded-full ${fullWidth && 'w-full'}`}>
         {label}
 
        {iconURL &&  <img 
